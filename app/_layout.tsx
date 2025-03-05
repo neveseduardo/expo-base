@@ -11,10 +11,6 @@ import { useColorScheme } from 'react-native';
 
 
 SplashScreen.preventAutoHideAsync();
-SplashScreen.setOptions({
-	duration: 1000,
-	fade: true,
-});
 
 export default function RootLayout() {
 	const colorScheme = useColorScheme();
